@@ -7,21 +7,30 @@ body {
   padding: 20px;
   margin: 20px auto;
   max-width: 700px;
+   
 }
 
 .post {
   margin-bottom: 20px;
+     background: #2BC0E4;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, right top, left top, from(#EAECC6), to(#2BC0E4));
+	background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .date {
-  color: #3498db;
+  color: #52167e;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .quote{
-  border-left: 5px solid #bdc3c7;
+    margin: 5px;
+  border-left: 5px solid #878c90;
   padding-left: 5px;
+}
+
+.quote1{
+  margin: 5px;
 }
 
 h2 {
